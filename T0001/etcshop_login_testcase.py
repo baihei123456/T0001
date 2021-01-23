@@ -15,7 +15,7 @@ class EtcLoginTest(unittest.TestCase):
         self.driver.find_element_by_name("loginName").send_keys("18888888123")
         self.driver.find_element_by_name("password").send_keys("Aa12873456")
         self.driver.find_element_by_css_selector('.el-button.login-in.el-button--primary').click()
-        self.driver.find_element_by_css_selector('.name.beyond-ellipsis-show').click()
+        #self.driver.find_element_by_css_selector('.name.beyond-ellipsis-show').click()
         time.sleep(1)
         #print(member_info)
         try:
